@@ -1,9 +1,9 @@
 [submodule "Ecoleta_server"]
 	path = Ecoleta_server
-	url = git@github.com:guilhermegoa/Ecoleta_server.git
+	url = https://github.com/guilhermegoa/Ecoleta_server.git
 [submodule "Ecoleta_mobile"]
 	path = Ecoleta_mobile
-	url = git@github.com:guilhermegoa/Ecoleta_mobile.git
+	url = https://github.com/guilhermegoa/Ecoleta_mobile.git
 [submodule "Ecoleta_web"]
 	path = Ecoleta_web
-	url = git@github.com:guilhermegoa/Ecoleta_web.git
+	url = https://github.com/guilhermegoa/Ecoleta_web.git
