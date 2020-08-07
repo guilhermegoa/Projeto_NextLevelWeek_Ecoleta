@@ -1,0 +1,3 @@
+[submodule "Ecoleta_server"]
+	path = Ecoleta_server
+	url = git@github.com:guilhermegoa/Ecoleta_server.git
