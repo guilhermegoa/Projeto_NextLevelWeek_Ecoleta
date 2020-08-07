@@ -2,11 +2,11 @@
 
 Projeto da semana next level da rocketseat 2020.
 
-##### Telas web
+#### Telas web
 
 <img src="./images/web-1.png" width="300" height="150" /> <img src="./images/web-2.png" width="300" height="500" />
 
-##### Telas mobile
+#### Telas mobile
 
 <img src="./images/mobile-1.jpeg" width="200" height="400" /><img src="./images/mobile_selection_state.jpeg" width="200" height="400" /><img src="./images/mobile_selection_city.jpeg" width="200" height="400" />
 
