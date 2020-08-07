@@ -18,7 +18,8 @@ Projeto da semana next level da rocketseat 2020.
 
 ##### Necessário
 
-- Node js
+- Instalar [Node js](https://nodejs.org/en/)
+- Instalar [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 **_Para fazer dowload de todo repositorio_**
 
@@ -27,17 +28,19 @@ Projeto da semana next level da rocketseat 2020.
 ### Server
 
 - Entrar na pasta Ecoleta_server
-- Para conseguir executar na sua maquina é necessario mudar a BASE_URL no arquico .env. Para isso deve pegar o ip da sua maquina, no terminal:
+- Para conseguir executar na sua maquina é necessario acessar a pasta src mudar a BASE_URL no arquico ".env" . Para isso deve pegar o ip da sua maquina, no terminal:
 
   > ipconfig
+
+  <img src="./images/ipconfig.png" width="500" height="400" />
 
 - Copie o Ipv4 e troque conforme conforme o exemplo:
 
   > Susbstitua na BASE_URL no arquivo .env
   > http://{Ipv4}:3333  
-  > Ex: http://192.168.1.1:3333
+  > Ex: http://192.168.1.103:3333
 
-- Com o terminal aberto execute os comandos
+* Com o terminal aberto execute os comandos
 
   > yarn install
 
@@ -45,9 +48,9 @@ Projeto da semana next level da rocketseat 2020.
 
   > yarn knex:seed
 
-- Para iniciar o server
+* Para iniciar o server
 
-  > yarn start
+  > yarn dev
 
 **_Pronto, agora é so rodar o projeto web ou mobile._**
 
@@ -79,5 +82,7 @@ Projeto da semana next level da rocketseat 2020.
 
   > yarn start
 
-- Apos abrir a pagina do expo na web selecione LAN pra rodar o app em seu celular
-- Abra o App no celular e escaneie o QRCode
+- Apos abrir a pagina do expo na web selecione LAN na parte de CONNECTION pra rodar o app em seu celular
+  <img src="./images/mobile_connection.png" width="300" height="50" />
+
+- Abra o App do expo no celular e escaneie o QRCode
