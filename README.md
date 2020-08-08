@@ -1,12 +1,12 @@
 # Projeto_NextLevelWeek_Ecoleta
 
-Projeto da semana next level da rocketseat 2020.
+Rocketseat 2020 next_level_week_1 project.
 
-#### Telas web
+#### Web screens
 
 <img src="./images/web-1.png" width="300" height="150" /> <img src="./images/web-2.png" width="300" height="500" />
 
-#### Telas mobile
+#### Mobile screens
 
 <img src="./images/mobile-1.jpeg" width="200" height="400" /><img src="./images/mobile_selection_state.jpeg" width="200" height="400" /><img src="./images/mobile_selection_city.jpeg" width="200" height="400" />
 
@@ -14,33 +14,34 @@ Projeto da semana next level da rocketseat 2020.
 
 <img src="./images/mobile-7.jpeg" width="200" height="400" /> <img src="./images/mobile-8.jpeg" width="200" height="400" /> <img src="./images/mobile-9.jpeg" width="200" height="400" />
 
-## Projeto
+## Project
 
-##### Necessário
+##### Required
 
-- Instalar [Node js](https://nodejs.org/en/)
-- Instalar [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- Install [Node js](https://nodejs.org/en/)
+- Install [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- Expo app, if running a mobile project
 
-**_Para fazer dowload de todo repositorio_**
+**_To download the entire repository_**
 
 > git clone --recurse-submodules https://github.com/guilhermegoa/Projeto_NextLevelWeek_Ecoleta.git
 
 ### Server
 
-- Entrar na pasta Ecoleta_server
-- Para conseguir executar na sua maquina é necessario acessar a pasta src mudar a BASE_URL no arquico ".env" . Para isso deve pegar o ip da sua maquina, no terminal:
+- Open the Ecoleta_server folder
+- To be open, you need to access the src folder, change the BASE_URL in the ".env" file. For that you must get the machine's ip, in the terminal:
 
   > ipconfig
 
   <img src="./images/ipconfig.png" width="500" height="400" />
 
-- Copie o Ipv4 e troque conforme conforme o exemplo:
+- Copy the Ipv4 an change in the .env file as shown:
 
   > Susbstitua na BASE_URL no arquivo .env
   > http://{Ipv4}:3333  
   > Ex: http://192.168.1.103:3333
 
-* Com o terminal aberto execute os comandos
+* With the terminal open, execute the commands:
 
   > yarn install
 
@@ -48,41 +49,40 @@ Projeto da semana next level da rocketseat 2020.
 
   > yarn knex:seed
 
-* Para iniciar o server
+* To start the server
 
   > yarn dev
 
-**_Pronto, agora é so rodar o projeto web ou mobile._**
+**_Ok, now just run the web or mobile project._**
 
 ### Web
 
-- No terminal na pasta Ecoleta_web, cole esses comandos
+- In the terminal open folder Ecoleta_web and run command
 
   > yarn install
 
-- Para iniciar o projeto web
+- To start the project web
 
   > yarn start
 
 ### Mobile
 
-- Para rodar o mobile é necessário instalar o expo cli, com o comando:
+- To run the mobile it necessary install the expo-cli, with command:
 
   > yarn global add expo-cli
 
-- Agora, abra na pasta do mobile e vá até pasta src/services/api.ts e mude a BASE_URL.
-  Exemplo:
+- Now, open mobile folder. Go to src/services, open api.ts file and change the BASE_URL.
 
   > http://{Ipv4}:3333  
   > Ex: http://192.168.1.1:3333
 
-- Após isso, no terminal na pasta mobile e rode os comandos:
+- After that, in the terminal open the mobile folder and run commands:
 
   > yarn install
 
   > yarn start
 
-- Apos abrir a pagina do expo na web selecione LAN na parte de CONNECTION pra rodar o app em seu celular
+- After opening the expo's web page select LAN in the CONNECTION section to the run app in phone.
   <img src="./images/mobile_connection.png" width="300" height="50" />
 
-- Abra o App do expo no celular e escaneie o QRCode
+- Open the expo app in phone and scan QRCode.
