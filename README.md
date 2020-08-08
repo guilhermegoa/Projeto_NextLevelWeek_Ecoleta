@@ -16,7 +16,7 @@ Rocketseat 2020 next_level_week_1 project.
 
 ## Project
 
-##### Required
+#### Required
 
 - Install [Node js](https://nodejs.org/en/)
 - Install [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
