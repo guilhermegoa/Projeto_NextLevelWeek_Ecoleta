@@ -1,6 +1,6 @@
 # Projeto_NextLevelWeek_Ecoleta
 
-Rocketseat 2020 next_level_week_1 project.
+Rocketseat 2020 next_level_week#1 project.
 
 ### Web screens
 
