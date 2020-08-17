@@ -2,11 +2,11 @@
 
 Rocketseat 2020 next_level_week_1 project.
 
-#### Web screens
+### Web screens
 
 <img src="./images/web-1.png" width="300" height="150" /> <img src="./images/web-2.png" width="300" height="500" />
 
-#### Mobile screens
+### Mobile screens
 
 <img src="./images/mobile-1.jpeg" width="200" height="400" /><img src="./images/mobile_selection_state.jpeg" width="200" height="400" /><img src="./images/mobile_selection_city.jpeg" width="200" height="400" />
 
@@ -16,7 +16,7 @@ Rocketseat 2020 next_level_week_1 project.
 
 ## Project
 
-#### Required
+### Required
 
 - Install [Node js](https://nodejs.org/en/)
 - Install [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
